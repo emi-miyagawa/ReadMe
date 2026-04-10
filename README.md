@@ -19,10 +19,13 @@ Manual email creation required repetitive copy-paste and caused inconsistencies.
 - Automated draft generation via GAS
 
 **Impact**  
-- Reduced manual workload  
-- Improved consistency of communication  
-- Enabled bulk processing
+- Reduced email creation time from ~2–3 min/email to <30 sec  
+- Enabled batch processing (30–50 emails/session)  
+- Reduced formatting inconsistencies
 
+**Trade-offs**  
+- Chose draft-based generation instead of auto-send to allow human validation and customization  
+- Prioritized accuracy and flexibility over full automation
 ---
 
 ### 2. Address Validation (validate_address)
@@ -78,10 +81,3 @@ Manual composition led to inefficiencies and formatting inconsistencies.
 - Google Sheets
 
 ---
-
-## 📌 Notes
-
-These tools were designed for real operational environments with constraints such as:
-- Non-technical users
-- Frequent exceptions
-- Need for stability over complexity
