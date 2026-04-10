@@ -1,9 +1,87 @@
-# Google Apps Script Projects 
-これは私が業務改善のために作成したGASのスクリプト集です。  
-## 📌 スクリプト一覧 
-- `auto_email/script.gs`
-        ：スプレッドシートのデータを元にメールを自動送信するGAS 
-- `validate_address/script.gs`
-        ：DMの住所チェックを行うGAS
-- `gift-card-url/script.gs`
-        ：Amazonギフト券のメール本文を表にするGAS
+# Operations Automation (Google Apps Script)
+
+This repository contains Google Apps Script (GAS) tools designed to reduce operational friction, standardize workflows, and improve execution efficiency in back-office and business operations.
+
+---
+
+## 🔧 Key Projects
+
+### 1. Email Automation (auto_email)
+
+**Overview**  
+Automatically generates email drafts from spreadsheet data.
+
+**Problem**  
+Manual email creation required repetitive copy-paste and caused inconsistencies.
+
+**Solution**  
+- Structured spreadsheet input
+- Automated draft generation via GAS
+
+**Impact**  
+- Reduced manual workload  
+- Improved consistency of communication  
+- Enabled bulk processing
+
+---
+
+### 2. Address Validation (validate_address)
+
+**Overview**  
+Validates address data before direct mail (DM) sending.
+
+**Problem**  
+Incomplete addresses caused delivery failures and operational waste.
+
+**Solution**  
+- Detect missing or invalid address components  
+- Flag high-risk records before sending
+
+**Impact**  
+- Reduced undeliverable mail  
+- Prevented unnecessary logistics cost  
+- Improved data quality
+
+---
+
+### 3. Gift Card Email Generator (gift-card-url)
+
+**Overview**  
+Generates email content for sending Amazon gift cards.
+
+**Problem**  
+Manual composition led to inefficiencies and formatting inconsistencies.
+
+**Solution**  
+- Template-based email generation  
+- Standardized output format
+
+**Impact**  
+- Reduced human error  
+- Improved processing speed  
+- Ensured consistent messaging
+
+---
+
+## 🧠 Design Principles
+
+- Translate ambiguous tasks into structured workflows  
+- Prioritize scalability and repeatability over manual effort  
+- Balance strict rules with exception handling  
+- Design for non-technical users
+
+---
+
+## 🛠 Tech Stack
+
+- Google Apps Script (JavaScript)
+- Google Sheets
+
+---
+
+## 📌 Notes
+
+These tools were designed for real operational environments with constraints such as:
+- Non-technical users
+- Frequent exceptions
+- Need for stability over complexity
