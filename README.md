@@ -4,7 +4,7 @@ This repository contains Google Apps Script (GAS) tools designed to reduce opera
 
 ---
 
-## 🔧 Key Projects
+##Key Projects
 
 ### 1. Email Automation (auto_email)
 
@@ -71,7 +71,7 @@ Manual composition caused inconsistency.
 
 ---
 
-## 🧠 Design Principles
+##Design Principles
 
 - Translate ambiguous tasks into structured workflows  
 - Prioritize scalability and repeatability  
@@ -80,7 +80,7 @@ Manual composition caused inconsistency.
 
 ---
 
-## 🛠 Tech Stack
+##Tech Stack
 
 - Google Apps Script (JavaScript)  
 - Google Sheets
